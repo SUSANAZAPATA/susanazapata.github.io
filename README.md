@@ -11,9 +11,13 @@ The Real Colombia is a space dedicated to celebrating, exploring, and revealing 
 On this blog, I wll take you on a journey through:
 
 🌆 Our cities: modern, historic, chaotic, and full of life.
+
 🍲 Our food: from humble street snacks to traditional dishes passed down through generations.
+
 🧑🏽‍🤝‍🧑🏽 Our people: a mosaic of ethnicities, cultures, and identities that make Colombia unique.
+
 ✨ Our traditions: like La Noche de las Velitas (Candle Night in December), our joyful and colorful Christmas celebrations, and many more local customs that bring communities together.
+
 🧠 Our current reality: the good, the bad, and everything in between. 
 
 This is not a tourism blog, this is a truth blog. It’s a space to reflect, connect, and hopefully inspire more understanding and appreciation for a country that is often misunderstood.
