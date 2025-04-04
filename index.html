@@ -3,82 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Real Colombia - Cities</title>
+    <title>The Real Colombia</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            margin: 0;
+            padding: 0;
         }
         header {
-            background-color: #2c3e50;
+            background: linear-gradient(to right, #fcd116, #0033a0, #f01c28);
             color: white;
             padding: 20px;
             text-align: center;
-            font-size: 28px;
+            font-size: 30px;
+        }
+        header img {
+            height: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
         }
         .content {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 40px auto;
             background: white;
-            padding: 30px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         h2 {
-            color: #2c3e50;
-            margin-top: 40px;
+            color: #f01c28;
         }
         h3 {
-            margin-top: 30px;
-            color: #d35400;
+            color: #0033a0;
+        }
+        p, ul {
+            line-height: 1.8;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
+            padding-left: 20px;
         }
-        li {
-            margin-bottom: 10px;
+        .city {
+            background-color: #fcd116;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+        .city h3 {
+            color: #0033a0;
+        }
+        .city p {
+            margin: 10px 0;
+        }
+        .food {
+            background-color: #fcd116;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+        .food h3 {
+            color: #0033a0;
+        }
+        .food ul {
+            list-style-type: none;
+        }
+        .food li {
+            margin-bottom: 8px;
         }
     </style>
 </head>
 <body>
-    <header>The Real Colombia – Cities That Shape Us</header>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_Colombia.svg/2560px-Flag_of_Colombia.svg.png" alt="Colombian Flag"> Welcome to The Real Colombia! 🇨🇴
+    </header>
+
     <div class="content">
         <h2>🏙️ Cities That Shape Colombia</h2>
-        <p>Colombia is a country of contrasts, and nowhere is that more evident than in its cities. Each one tells a different story — shaped by history, culture, music, migration, and resilience. Let’s begin with four cities that truly represent the soul of Colombia:</p>
 
-        <h3>🌄 Medellín – The City of Eternal Spring</h3>
-        <ul>
-            <li><strong>Vibe:</strong> Creative, entrepreneurial, full of local pride.</li>
-            <li><strong>Must-experience:</strong> The Metrocable ride over the comunas, the stunning botanical garden, and the annual Feria de las Flores.</li>
-            <li><strong>Don’t miss:</strong> Bandeja paisa, salsa choke parties, and the murals of Comuna 13.</li>
-        </ul>
+        <div class="city">
+            <h3>🌄 Medellín – The City of Eternal Spring</h3>
+            <p>Once infamous, today admired. Medellín is a symbol of transformation. Nestled in the Aburrá Valley and surrounded by green mountains, it’s known for its perfect weather, innovation, and warmth.</p>
+            <ul>
+                <li><strong>Vibe:</strong> Creative, entrepreneurial, full of local pride.</li>
+                <li><strong>Must-experience:</strong> The Metrocable ride over the comunas, the stunning botanical garden, and the annual Feria de las Flores.</li>
+                <li><strong>Don’t miss:</strong> Bandeja paisa, salsa choke parties, and the murals of Comuna 13.</li>
+            </ul>
+        </div>
 
-        <h3>🏙️ Bogotá – The Heart of the Country</h3>
-        <ul>
-            <li><strong>Vibe:</strong> Fast-paced, intellectual, urban energy with a poetic soul.</li>
-            <li><strong>Must-experience:</strong> La Candelaria district, Monserrate at sunset, and the Gold Museum.</li>
-            <li><strong>Don’t miss:</strong> Ajiaco soup, Bogotá’s underground music scene, and Sundays on Ciclovía.</li>
-        </ul>
+        <div class="city">
+            <h3>🏙️ Bogotá – The Heart of the Country</h3>
+            <p>The capital. A chaotic symphony of people, politics, culture, and creativity. Bogotá sits high in the Andes and pulses with diversity from every corner of Colombia.</p>
+            <ul>
+                <li><strong>Vibe:</strong> Fast-paced, intellectual, urban energy with a poetic soul.</li>
+                <li><strong>Must-experience:</strong> La Candelaria district, Monserrate at sunset, and the Gold Museum.</li>
+                <li><strong>Don’t miss:</strong> Ajiaco soup, Bogotá’s underground music scene, and Sundays on Ciclovía.</li>
+            </ul>
+        </div>
 
-        <h3>🌊 Barranquilla – Where the Party Never Stops</h3>
-        <ul>
-            <li><strong>Vibe:</strong> Festive, coastal, loud, and proud.</li>
-            <li><strong>Must-experience:</strong> The Carnival in February, the Malecón del Río, and a night of champeta or salsa.</li>
-            <li><strong>Don’t miss:</strong> Arepas de huevo, tropical heat, and people who make you feel at home instantly.</li>
-        </ul>
+        <div class="city">
+            <h3>🌊 Barranquilla – Where the Party Never Stops</h3>
+            <p>Barranquilla is rhythm, color, and joy — the birthplace of Shakira and the home of Colombia’s second-largest carnival. This Caribbean city is bold, warm, and full of flavor.</p>
+            <ul>
+                <li><strong>Vibe:</strong> Festive, coastal, loud, and proud.</li>
+                <li><strong>Must-experience:</strong> The Carnival in February, the Malecón del Río, and a night of champeta or salsa.</li>
+                <li><strong>Don’t miss:</strong> Arepas de huevo, tropical heat, and people who make you feel at home instantly.</li>
+            </ul>
+        </div>
 
-        <h3>🔥 Cali – The Capital of Salsa</h3>
-        <ul>
-            <li><strong>Vibe:</strong> Passionate, soulful, rebellious.</li>
-            <li><strong>Must-experience:</strong> A salsa class, San Antonio neighborhood, and the iconic Cristo Rey.</li>
-            <li><strong>Don’t miss:</strong> Chontaduro with honey and salt, salsa clubs like Zaperoco, and the Cali Fair in December.</li>
-        </ul>
+        <div class="city">
+            <h3>🔥 Cali – The Capital of Salsa</h3>
+            <p>Cali is movement — from the salsa that pulses through its streets to the boldness of its people. It’s one of Colombia’s most culturally rich and ethnically diverse cities.</p>
+            <ul>
+                <li><strong>Vibe:</strong> Passionate, soulful, rebellious.</li>
+                <li><strong>Must-experience:</strong> A salsa class, San Antonio neighborhood, and the iconic Cristo Rey.</li>
+                <li><strong>Don’t miss:</strong> Chontaduro with honey and salt, salsa clubs like Zaperoco, and the Cali Fair in December.</li>
+            </ul>
+        </div>
+
+        <h2>🍲 Our Food – Flavors That Tell a Story</h2>
+        <p>If you really want to understand Colombia, start with the food. Colombian cuisine is a reflection of our diversity — a mix of Indigenous, African, Spanish, and Arab influences, shaped by geography and tradition.</p>
+
+        <div class="food">
+            <h3>🥘 Bandeja Paisa (Antioquia)</h3>
+            <p>A legendary dish from the coffee region. It’s hearty, indulgent, and deeply symbolic of Paisa culture.</p>
+            <ul>
+                <li><strong>What’s in it?</strong> Red beans, white rice, ground beef, chicharrón, fried egg, plantain, arepa, chorizo, avocado, and sometimes a slice of blood sausage.</li>
+                <li><strong>How it feels:</strong> Like a hug from your abuela after a long day.</li>
+            </ul>
+
+            <h3>🍲 Ajiaco (Bogotá and the Andes)</h3>
+            <p>A warm, comforting chicken and potato soup made with three kinds of potatoes and flavored with guasca leaves. Served with avocado, rice, and capers.</p>
+            <p><strong>When to eat it?</strong> On a rainy Bogotá afternoon — or any time you need comfort in a bowl.</p>
+
+            <h3>🌮 Arepas (Everywhere, but different everywhere)</h3>
+            <p>Arepas are corn-based patties eaten throughout Colombia — but they vary wildly by region.</p>
+            <ul>
+                <li><strong>Antioquia:</strong> Thin and grilled.</li>
+                <li><strong>Caribbean Coast:</strong> Stuffed with cheese, eggs, or meat.</li>
+                <li><strong>Santander:</strong> Crunchy and made with corn and pork bits.</li>
+            </ul>
+            <p><strong>Arepas are like Colombians themselves — simple, adaptable, and full of character.</strong></p>
+
+            <h3>🍌 Sancocho (National dish)</h3>
+            <p>This beloved stew is cooked differently across regions, but always with yuca, plantain, corn, and meat (chicken, fish, beef, or pork).</p>
+            <p><strong>It’s best shared</strong> — sancocho is a dish for family gatherings, birthdays, or a lazy Sunday in the countryside.</p>
+
+            <h3>🧁 Postres (Desserts)</h3>
+            <p>Colombians love sweet things! Some of our most cherished desserts include:</p>
+            <ul>
+                <li><strong>Arequipe:</strong> Our version of dulce de leche.</li>
+                <li><strong>Obleas:</strong> Thin wafers filled with arequipe, cheese, and jam.</li>
+                <li><strong>Brevas con arequipe:</strong> Figs with caramel.</li>
+                <li><strong>Natilla y buñuelos:</strong> Traditional Christmas treats that bring the whole family together.</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
-
-
